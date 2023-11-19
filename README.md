@@ -20,6 +20,10 @@ The project proposes an AI-driven Tax Optimization Tool, named "TaxOptiRetire," 
    - Considers factors such as eligibility for tax credits and deductions, retirement account withdrawal strategies, optimization of contributions to tax-advantaged accounts, and more.
    - Provides real-time recommendations based on the analysis, suggesting tax-saving actions retirees can take to optimize their tax strategies.
 
+<pre>
+<img src="/imgs/Screenshot (197).png" width="1000"> 
+</pre>
+
 3. *Interactive User Dashboard:*
    - Allows users to input their financial data, visualize the impact of different strategies on tax liability and retirement income, and use tax calculators to compare scenarios.
 
