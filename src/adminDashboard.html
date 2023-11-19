@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ADMIN DASHBOARD</h1>
+    </header>
+
+    <nav>
+        <!-- <a href="#" id="dashboard-link">Dashboard</a> -->
+        <button type="button" class="btn btn-default" href="#" id="dashboard-link">Dashboard</button>
+        <!-- <a href="#" id="users-link">Users</a> -->
+        <button type="button" class="btn btn-default" href="#" id="users-link">Users</button>
+        <!-- <a href="#" id="reports-link">Reports</a> -->
+        <button type="button" class="btn btn-default" href="#" id="reports-link">Reports</button>
+        <!-- <a href="#" id="settings-link">Settings</a> -->
+        <button type="button" class="btn btn-default" href="#" id="settings-link">Settings</button>
+        <!-- <a href="#" id="logout-link">Logout</a> -->
+        <button type="button" class="btn btn-default" href="logout.html" id="logout-link">Logout</button>
+    </nav>
+
+    <section id="admin-content">
+        <h2>Welcome to the Admin Dashboard</h2>
+        <p>This is a simple admin dashboard. You can add more content and features as needed.</p>
+    
+        <!-- Users Section -->
+        <div id="users-section" style="display: none;">
+            <h3>Manage Users</h3>
+            <!-- Add user management features and content here -->
+            <ul>
+                <li>User 1</li>
+                <li>User 2</li>
+                <!-- ... -->
+            </ul>
+        </div>
+    
+        <!-- Reports Section -->
+        <div id="reports-section" style="display: none;">
+            <h3>View Reports</h3>
+            <!-- Add report viewing features and content here -->
+            <p>No reports available at the moment.</p>
+        </div>
+    
+        <!-- Settings Section -->
+        <div id="settings-section" style="display: none;">
+            <h3>Admin Settings</h3>
+            <!-- Add admin settings features and content here -->
+            <p>Configure admin settings here.</p>
+        </div>
+    </section>
+    
+
+    <footer>
+        &copy; 2023 Admin Dashboard
+    </footer>
+
+    <script>
+        // JavaScript code for handling navigation and content updates
+        const dashboardLink = document.getElementById('dashboard-link');
+        const usersLink = document.getElementById('users-link');
+        const reportsLink = document.getElementById('reports-link');
+        const settingsLink = document.getElementById('settings-link');
+        const logoutLink = document.getElementById('logout-link');
+        const adminContent = document.getElementById('admin-content');
+
+        dashboardLink.addEventListener('click', () => {
+            adminContent.innerHTML = '<h2>Dashboard</h2><p>Content for the Dashboard section.</p>';
+        });
+
+        usersLink.addEventListener('click', () => {
+            adminContent.innerHTML = '<h2>Users</h2><p>Content for the Users section.</p>';
+        });
+
+        reportsLink.addEventListener('click', () => {
+            adminContent.innerHTML = '<h2>Reports</h2><p>Content for the Reports section.</p>';
+        });
+
+        settingsLink.addEventListener('click', () => {
+            adminContent.innerHTML = '<h2>Settings</h2><p>Content for the Settings section.</p>';
+        });
+
+        logoutLink.addEventListener('click', () => {
+            adminContent.innerHTML = '<h2>Logout</h2><p>Content for the Logout section.</p>';
+        });
+    </script>
+
+</body>
+</html>
