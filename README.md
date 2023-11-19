@@ -5,6 +5,10 @@
 Project Idea:
 The project, named "TaxOptiRetire," addresses the common challenge faced by retirees who struggle to navigate the complex tax landscape during their retirement. Many retirees may not fully understand how to optimize their tax strategies, leading to higher tax liabilities and reduced retirement income.
 
+<pre>
+<img src="/imgs/4.png" width="1000"> 
+</pre>
+
 Solution:
 The project proposes an AI-driven Tax Optimization Tool, named "TaxOptiRetire," designed to empower retirees in making informed and tax-efficient decisions about their finances during their retirement years. Key features of the tool include:
 
@@ -26,10 +30,18 @@ The project proposes an AI-driven Tax Optimization Tool, named "TaxOptiRetire," 
    - Enables users to incorporate tax optimization recommendations into their overall retirement financial plan.
    - Visualizes how tax optimization strategies affect their long-term financial outlook.
 
+<pre>
+<img src="/imgs/6.png" width="1000"> 
+</pre>
+
 Benefits:
 - Empowers retirees to make informed and tax-efficient decisions, potentially increasing their retirement income.
 - Offers an intuitive user interface that simplifies complex tax concepts.
 - Provides retirees with the tools to proactively manage their tax strategies during retirement.
+
+<pre>
+<img src="/imgs/10.png" width="1000"> 
+</pre>
 
 Structured Planning:
 Users can incorporate the TaxOptiRetire tool as a critical component of their retirement financial plan. They can regularly input their financial data, receive real-time tax optimization recommendations, and ensure that their tax strategies align with their overall retirement goals.
