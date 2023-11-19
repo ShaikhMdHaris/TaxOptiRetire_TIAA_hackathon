@@ -1,4 +1,7 @@
 # TaxOptiRetire_TIAA_hackathon
+<pre>
+<img src="/imgs/1.png" width="1000"> 
+</pre>
 Project Idea:
 The project, named "TaxOptiRetire," addresses the common challenge faced by retirees who struggle to navigate the complex tax landscape during their retirement. Many retirees may not fully understand how to optimize their tax strategies, leading to higher tax liabilities and reduced retirement income.
 
